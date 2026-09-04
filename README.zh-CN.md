@@ -95,7 +95,7 @@ app/src/main/java/com/comp7506/mywardrobe/
 
 ## ⚙️ 配置说明
 
-- **账号登录**：`app/google-services.json` 已随项目提供（Firebase 项目配置），如需更换项目请替换该文件
+- **账号登录**：`app/google-services.json`（Firebase 项目配置）**不随仓库提供**（含项目标识，防止误提交），需自行放入自己的 `google-services.json`——可从 Firebase 控制台下载，或沿用已有项目时从本地拷贝该文件到 `app/` 目录
 - **AI 试衣**：默认接入火山引擎豆包图像生成。API Key 等敏感信息**不写入源码**：构建期从环境变量（或用户级 `~/.gradle/gradle.properties`）注入 `BuildConfig`，运行时经 `data/api/AIService.kt` 的 `APIConfig` 读取。
 
     | 变量 | 必填 | 说明 |
