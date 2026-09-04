@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Mirror&#160;Wardrobe</string>
+    <string name="warmth_value_light_tshirt">• Light T-shirt / Base layer: 1</string>
+    <string name="warmth_value_shirt">• Shirt / Thermal top: 2</string>
+    <string name="warmth_value_sweatshirt">• Sweatshirt / Light sweater: 3</string>
+    <string name="warmth_value_thick_sweater">• Thick sweater / Padded vest: 4</string>
+    <string name="warmth_value_trench">• Trench coat / Light down jacket: 6</string>
+    <string name="warmth_value_heavy_coat">• Heavy down jacket / Wool coat: 8</string>
+    <string name="warmth_value_fur_coat">• Fur coat: 12</string>
+
+    <string name="mirror_mode_default_avatar">Default Avatar</string>
+    <string name="mirror_mode_my_photo">My Photo</string>
+
+    <string name="ai_error_generate_failed">Failed to generate fitting image</string>
+
+    <string name="ai_result_back">Back</string>
+    <string name="ai_result_title">AI Try-on Result</string>
+    <string name="ai_result_loading">Generating AI try-on result…</string>
+    <string name="ai_result_failed">Generation Failed</string>
+    <string name="ai_result_unknown_error">Unknown error</string>
+    <string name="ai_result_generated_image_desc">AI generated try-on image</string>
+    <string name="ai_result_selected_items">Selected Items</string>
+    <string name="ai_result_empty">No try-on result yet</string>
+    <string name="ai_result_save">Save</string>
+    <string name="ai_result_share">Share</string>
+    <string name="ai_result_regenerate">Regenerate</string>
+    <string name="ai_result_share_chooser_title">Share try-on result</string>
+
+    <string name="ai_prompt_suffix">Do not change the model\'s body shape or facial appearance; focus on showing the outfit clearly.</string>
+    <string name="ai_prompt_default">Put the top and pants from the first image onto the model in the second image. %1$s</string>
+    <string name="ai_prompt_item_joiner"> and </string>
+    <string name="ai_prompt_template">Put the %1$s from the first image onto the model in the second image. %2$s</string>
+    <string name="ai_error_bad_request">Invalid request: please check image format and encoding.</string>
+    <string name="ai_error_unauthorized">Unauthorized: please check the API key.</string>
+    <string name="ai_error_rate_limited">Too many requests. Please try again later.</string>
+    <string name="ai_error_api_generic">API returned an error.</string>
+</resources>

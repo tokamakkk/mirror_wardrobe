@@ -1,0 +1,99 @@
+{
+  "designSystem": {
+    "metadata": {
+      "name": "Soft Gradient Mobile Design System",
+      "platform": "Android/Mobile",
+      "theme": "Light/Soft"
+    },
+    "tokens": {
+      "color": {
+        "palette": {
+          "primary": "#000000",
+          "background": {
+            "top": "#E6E1F9",
+            "bottom": "#F3E7D9",
+            "card": "#FFFFFFE6"
+          },
+          "neutral": {
+            "textMain": "#000000",
+            "textSecondary": "#5F6368",
+            "border": "#747775"
+          },
+          "accent": "#7C4DFF"
+        },
+        "roles": {
+          "onSurface": "palette.primary",
+          "surfaceVariant": "palette.background.card",
+          "outline": "palette.neutral.border"
+        }
+      },
+      "typography": {
+        "fontFamily": "Inter, Roboto, sans-serif",
+        "scales": {
+          "headlineLarge": {
+            "fontSize": "32px",
+            "fontWeight": "700",
+            "lineHeight": "40px",
+            "letterSpacing": "0px"
+          },
+          "titleMedium": {
+            "fontSize": "18px",
+            "fontWeight": "500",
+            "lineHeight": "24px"
+          },
+          "bodyLarge": {
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "palette.neutral.textSecondary"
+          },
+          "labelLarge": {
+            "fontSize": "14px",
+            "fontWeight": "600",
+            "textTransform": "uppercase"
+          }
+        }
+      },
+      "spacing": {
+        "baseUnit": "4px",
+        "containerPadding": "24px",
+        "elementGap": "16px",
+        "borderRadius": {
+          "card": "12px",
+          "input": "8px",
+          "button": "8px"
+        }
+      },
+      "elevation": {
+        "card": "0px 10px 30px rgba(0, 0, 0, 0.1)"
+      }
+    },
+    "components": {
+      "card": {
+        "background": "blur(20px)",
+        "opacity": 0.9,
+        "padding": "32px 24px"
+      },
+      "textInput": {
+        "style": "Outlined",
+        "labelStyle": "Floating/Inset",
+        "iconColor": "palette.accent",
+        "states": {
+          "default": {
+            "borderColor": "palette.neutral.border"
+          }
+        }
+      },
+      "buttonPrimary": {
+        "backgroundColor": "palette.primary",
+        "textColor": "#FFFFFF",
+        "padding": "16px",
+        "alignment": "Center"
+      },
+      "link": {
+        "textColor": "palette.primary",
+        "fontWeight": "600",
+        "decoration": "none"
+      }
+    }
+  }
+}

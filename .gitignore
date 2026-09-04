@@ -1,0 +1,23 @@
+/.gradle/
+/.idea/
+/build/
+/local.properties
+**/build/
+**/.cxx/
+**/*.iml
+/.kotlin/
+
+# 密钥与签名文件（防止误提交）
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+.env
+secrets.properties
+
+# Firebase 客户端配置（含项目标识，按需自行放入）
+google-services.json
+
+# 本地工具配置
+.claude/

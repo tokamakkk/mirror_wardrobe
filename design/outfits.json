@@ -1,0 +1,74 @@
+{
+  "designSystem": {
+    "metadata": {
+      "name": "Soft Gradient Mobile Design System",
+      "version": "1.4.0",
+      "platform": "Android/Mobile",
+      "theme": "Light/Soft"
+    },
+    "tokens": {
+      "color": {
+        "palette": {
+          "primary": "#000000",
+          "background": {
+            "top": "#E6E1F9",
+            "bottom": "#F3E7D9",
+            "glassHigh": "rgba(255, 255, 255, 0.8)",
+            "glassLow": "rgba(255, 255, 255, 0.4)"
+          },
+          "accent": {
+            "softPurple": "#D1C4E9"
+          }
+        }
+      },
+      "typography": {
+        "scales": {
+          "tabActive": {
+            "fontSize": "18px",
+            "fontWeight": "600",
+            "color": "#000000"
+          },
+          "tabInactive": {
+            "fontSize": "18px",
+            "fontWeight": "300",
+            "color": "rgba(0, 0, 0, 0.6)"
+          }
+        }
+      },
+      "spacing": {
+        "gridGutter": "16px",
+        "cardPadding": "12px",
+        "borderRadius": {
+          "compositeCard": "24px",
+          "actionCircle": "50%"
+        }
+      },
+      "elevation": {
+        "subtle": "0px 2px 8px rgba(0, 0, 0, 0.05)",
+        "floating": "0px 8px 20px rgba(0, 0, 0, 0.12)"
+      }
+    },
+    "components": {
+      "outfitCard": {
+        "background": "palette.background.glassHigh",
+        "borderRadius": "spacing.borderRadius.compositeCard",
+        "layout": "Auto-Flow-Grid",
+        "actionButton": {
+          "position": "Top-Right",
+          "size": "32px",
+          "background": "palette.background.glassLow",
+          "icon": "Pencil-Edit-Outline"
+        }
+      },
+      "filterBar": {
+        "style": "Ghost-Tabs",
+        "alignment": "Justified-Start",
+        "spacing": "24px"
+      },
+      "composition": {
+        "imageSpacing": "4px",
+        "maxItems": 4
+      }
+    }
+  }
+}

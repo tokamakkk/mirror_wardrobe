@@ -1,0 +1,90 @@
+{
+  "designSystem": {
+    "metadata": {
+      "name": "Soft Gradient Mobile Design System",
+      "version": "1.1.0",
+      "platform": "Android/Mobile",
+      "theme": "Light/Soft"
+    },
+    "tokens": {
+      "color": {
+        "palette": {
+          "primary": "#000000",
+          "background": {
+            "top": "#E6E1F9",
+            "bottom": "#F3E7D9",
+            "card": "rgba(255, 255, 255, 0.85)"
+          },
+          "neutral": {
+            "textMain": "#000000",
+            "textSecondary": "#4A4A4A",
+            "border": "#1C1B1F"
+          }
+        },
+        "effects": {
+          "backdropBlur": "20px",
+          "cardShadow": "0px 10px 40px rgba(0, 0, 0, 0.08)"
+        }
+      },
+      "typography": {
+        "fontFamily": "Inter, Roboto, sans-serif",
+        "scales": {
+          "headlineLarge": {
+            "fontSize": "34px",
+            "fontWeight": "800",
+            "lineHeight": "1.1",
+            "letterSpacing": "-0.5px",
+            "content": "Create your Account"
+          },
+          "bodySubtitle": {
+            "fontSize": "18px",
+            "fontWeight": "400",
+            "color": "palette.neutral.textSecondary",
+            "content": "Sign up to start your journey"
+          },
+          "labelSmall": {
+            "fontSize": "12px",
+            "fontWeight": "500",
+            "background": "palette.background.card"
+          }
+        }
+      },
+      "spacing": {
+        "outerPadding": "24px",
+        "interElementGap": "12px",
+        "groupGap": "20px",
+        "borderRadius": {
+          "card": "28px",
+          "input": "12px",
+          "button": "12px"
+        }
+      }
+    },
+    "components": {
+      "inputField": {
+        "variant": "Outlined",
+        "borderWidth": "1px",
+        "height": "56px",
+        "labelPosition": "Border-Cutout",
+        "iconSet": {
+          "username": "Person-Outline",
+          "email": "Mail-Outline",
+          "password": "Key-Outline",
+          "toggle": "Visibility-Off-Outline"
+        }
+      },
+      "buttonPrimary": {
+        "textTransform": "uppercase",
+        "letterSpacing": "1.25px",
+        "fontWeight": "600",
+        "height": "52px",
+        "elevation": "low"
+      },
+      "footerLink": {
+        "alignment": "Center",
+        "fontSize": "15px",
+        "linkColor": "#8E7CB5"
+      }
+    }
+  }
+}

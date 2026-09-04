@@ -1,0 +1,88 @@
+{
+  "designSystem": {
+    "metadata": {
+      "name": "Soft Gradient Mobile Design System",
+      "version": "1.2.0",
+      "platform": "Android/Mobile",
+      "theme": "Light/Soft"
+    },
+    "tokens": {
+      "color": {
+        "palette": {
+          "primary": "#000000",
+          "background": {
+            "top": "#E6E1F9",
+            "bottom": "#F3E7D9",
+            "card": "rgba(255, 255, 255, 0.75)"
+          },
+          "chart": {
+            "tops": "#A5B4FC",
+            "bottoms": "#FDBA8C",
+            "shoes": "#E9D5A3",
+            "others": "#C084FC"
+          },
+          "nav": {
+            "active": "#1C1B1F",
+            "inactive": "#4A4A4A"
+          }
+        }
+      },
+      "typography": {
+        "scales": {
+          "headlineMedium": {
+            "fontSize": "24px",
+            "fontWeight": "700",
+            "color": "#000000"
+          },
+          "weatherTitle": {
+            "fontSize": "28px",
+            "fontWeight": "600"
+          },
+          "weatherDetail": {
+            "fontSize": "16px",
+            "fontStyle": "italic",
+            "color": "#4A4A4A"
+          },
+          "navLabel": {
+            "fontSize": "12px",
+            "fontWeight": "500"
+          }
+        }
+      },
+      "spacing": {
+        "sectionMargin": "24px",
+        "cardGutter": "12px",
+        "borderRadius": {
+          "cardLarge": "32px",
+          "thumbnail": "16px",
+          "navIndicator": "12px"
+        }
+      }
+    },
+    "components": {
+      "weatherCard": {
+        "layout": "Row/Split",
+        "iconSize": "80px",
+        "padding": "24px"
+      },
+      "donutChart": {
+        "innerRadius": "0.6",
+        "labelStyle": "Outer-Callout",
+        "percentageStyle": "Inset-Bold"
+      },
+      "horizontalGallery": {
+        "aspectRatio": "1:1",
+        "titlePlacement": "Below-Thumbnail",
+        "scrollDirection": "Horizontal"
+      },
+      "bottomNavigation": {
+        "background": "palette.background.card",
+        "activeIndicator": {
+          "type": "Pill-Box",
+          "color": "rgba(0, 0, 0, 0.05)"
+        },
+        "itemCount": 5
+      }
+    }
+  }
+}

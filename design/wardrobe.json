@@ -1,0 +1,85 @@
+{
+  "designSystem": {
+    "metadata": {
+      "name": "Soft Gradient Mobile Design System",
+      "version": "1.3.0",
+      "platform": "Android/Mobile",
+      "theme": "Light/Soft"
+    },
+    "tokens": {
+      "color": {
+        "palette": {
+          "primary": "#000000",
+          "background": {
+            "top": "#E6E1F9",
+            "bottom": "#F3E7D9",
+            "glassBase": "rgba(255, 255, 255, 0.4)"
+          },
+          "interaction": {
+            "activeTab": "#7C4DFF",
+            "inactiveTab": "#1C1B1F",
+            "fabIcon": "#1C1B1F"
+          }
+        }
+      },
+      "typography": {
+        "scales": {
+          "tabLabel": {
+            "fontSize": "16px",
+            "fontWeight": "600",
+            "letterSpacing": "0.2px"
+          },
+          "searchPlaceholder": {
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "color": "rgba(0, 0, 0, 0.5)"
+          }
+        }
+      },
+      "spacing": {
+        "gridPadding": "16px",
+        "gridGap": "12px",
+        "borderRadius": {
+          "searchBar": "24px",
+          "itemCard": "20px",
+          "fab": "50%"
+        }
+      },
+      "elevation": {
+        "fab": "0px 4px 12px rgba(0, 0, 0, 0.15)",
+        "itemInnerShadow": "inset 0px 1px 4px rgba(255, 255, 255, 0.5)"
+      }
+    },
+    "components": {
+      "searchBar": {
+        "background": "palette.background.glassBase",
+        "backdropBlur": "15px",
+        "prefixIcon": "Search-Outline",
+        "suffixIcon": "Filter-List-Grid"
+      },
+      "categoryTabs": {
+        "layout": "Horizontal-Scroll",
+        "indicator": {
+          "style": "Underline-Rounded",
+          "height": "3px",
+          "width": "24px"
+        }
+      },
+      "inventoryGrid": {
+        "columns": 3,
+        "itemCard": {
+          "aspectRatio": "1:1.2",
+          "background": "palette.background.glassBase",
+          "imageFit": "Contain",
+          "imagePadding": "8px"
+        }
+      },
+      "floatingActionButton": {
+        "size": "56px",
+        "background": "palette.background.glassBase",
+        "blur": "10px",
+        "icon": "Add-Plus"
+      }
+    }
+  }
+}

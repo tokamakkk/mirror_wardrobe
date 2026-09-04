@@ -1,0 +1,81 @@
+{
+  "designSystem": {
+    "metadata": {
+      "name": "Soft Gradient Mobile Design System",
+      "version": "1.6.0",
+      "platform": "Android/Mobile",
+      "theme": "Light/Soft"
+    },
+    "tokens": {
+      "color": {
+        "palette": {
+          "primary": "#000000",
+          "background": {
+            "top": "#E6E1F9",
+            "bottom": "#F3E7D9",
+            "glassBase": "rgba(255, 255, 255, 0.75)"
+          },
+          "state": {
+            "selectedDate": "#F5E6D3",
+            "activeIndicator": "#7C4DFF"
+          }
+        }
+      },
+      "typography": {
+        "scales": {
+          "calendarHeader": {
+            "fontSize": "22px",
+            "fontWeight": "600",
+            "letterSpacing": "1px",
+            "textTransform": "uppercase"
+          },
+          "dateNumber": {
+            "fontSize": "20px",
+            "fontWeight": "400"
+          },
+          "sectionTitle": {
+            "fontSize": "24px",
+            "fontWeight": "700"
+          }
+        }
+      },
+      "spacing": {
+        "borderRadius": {
+          "calendarCard": "32px",
+          "selectedDate": "12px",
+          "placeholderDashed": "16px"
+        }
+      }
+    },
+    "components": {
+      "calendarGrid": {
+        "layout": "7-Column",
+        "stateIndicators": {
+          "dot": "Event-General",
+          "plus": "Event-Addable",
+          "hanger": "Outfit-Assigned"
+        },
+        "selection": {
+          "background": "palette.state.selectedDate",
+          "borderRadius": "12px"
+        }
+      },
+      "outfitSlot": {
+        "variant": "Dashed-Placeholder",
+        "borderStyle": "Dashed",
+        "borderColor": "rgba(255, 255, 255, 0.8)",
+        "icon": "Add-Thin-Large"
+      },
+      "actionTray": {
+        "position": "Bottom-Center",
+        "icons": ["Delete-Outline", "Edit-Outline"],
+        "iconSize": "20px"
+      },
+      "splitContainer": {
+        "topRatio": "0.45",
+        "bottomRatio": "0.55",
+        "dividerStyle": "Pill-Handle"
+      }
+    }
+  }
+}
