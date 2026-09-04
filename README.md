@@ -8,13 +8,7 @@
 
 ## 📸 功能演示
 
-<!-- TODO: 在此处替换为功能演示动图，建议录制 3–5 秒的核心流程（如：AI 试衣 / 天气推荐），放到 docs/demo.gif 或仓库内任意路径，并更新下方 src 指向 -->
-
-<p align="center">
-  <img src="docs/demo.gif" alt="功能演示 GIF（待补充）" width="270" />
-</p>
-
-> 🚧 演示动图待补充：`docs/demo.gif`
+<img width="800" height="533" alt="Image" src="https://github.com/user-attachments/assets/a8edcca0-2a04-4b92-b77f-2e9eb2e8dc60" />
 
 ---
 
